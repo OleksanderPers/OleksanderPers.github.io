@@ -1,9 +1,11 @@
+
 h1 {
     text-align:  center;
    
 }
 p{
     font-size: 125%;
+    color: green;
     }
 .dline{
     margin-bottom: 3%;
@@ -20,5 +22,8 @@ hr{
     margin-bottom: 1%;
 }
 body{
-    margin: 3%;
+   /* margin: 3%;*/
+    background: #efefef;
+    font-size: 1pt;
+    display: block;
 }
