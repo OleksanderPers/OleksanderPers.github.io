@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f9f9f9;
+}
+.logo{
+    margin: 50px 46px;
+}
+ .container{
+  width: 1060px;
+  border: 1px solid #999;
+  border-top: 0;
+  margin: 0 auto;
+  box-shadow: 1px 0 #f9f9f9;
+  background: #fff;
+ }
+/*HEADER*/
+.logo{
+    margin: 50px 46px;
+}
+.menu{
+margin: 0 46px;
+    height: 40px;
+    /* width: 966px; */
+    background: #545454
+}
+.menu li {
+    
+    /*padding: 20px;*/
+    
+    /*width: 48px;*/
+    /*height: 15px;*/
+    /*padding: 10px 24px;*/
+    display: inline-block;
+    list-style: none;
+    /*padding: 0 21px;*/
+}
+.menu a {
+    margin: 0 21px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 40px;
+    
+}
+.menu li:hover{
+    background: #303030;
+    /*width: 96px;*/
+    /*height: 40px;*/
+}
+/*SIDE BAR*/
+.sidebar{
+
+width: 240px;
+background: #ffffff;
+
+margin:  40px 0 0 46px;
+border: 1px solid #c8c8c8;
+float: left;
+}
+
+.sidebar li {
+    display: block;
+    list-style: none;
+    padding: 0 0 0 24px;
+    border-top: 1px solid #c8c8c8;
+}
+.sidebar li:first-child{
+    border-top: 0;
+    
+}
+.sidebar a {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #656363;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    line-height: 38px;
+    
+    
+    /*width: 240px;
+    height: 40px;*/
+    /*padding: 20px;*/
+    
+}
+.sidebar li:hover{
+    background: #f9f9f9;
+    padding: 0 0 0 36px;
+    color: #2c2c2c;
+}
+
+/*CONTENT*/
+.content__wrapper {
+    float: right;
+    width: 63%;
+    margin: 40px 48px 0;
+    background: #fff;
+}
+
+.content {
+    border: 1px #c8c8c8 solid;
+}
+
+.content img {
+    margin: 15px auto;
+    /*border: 1px solid black;*/
+    /*float: right;*/
+    width: 75%;
+    display: block;
+    
+}
+.text{
+    margin: 40px 0 80px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    
+}
+.clearfix {
+    clear: both;
+    
+}
+
+/*Footer*/
+.footer{
+    margin: 0px 46px 60px 46px;
+    background: #e1e1e1;
+    line-height: -60px;
+}
+.footer li{
+    display: inline-block;
+    
+    list-style: none;
+    
+    
+}
+.footer a{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+    margin: 0 45px 0 24px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.copy {
+    float: right;
+    margin: 0 36px 0 0;
+}
+
+.copy a {
+    margin: 0;  
+}
