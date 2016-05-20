@@ -1,36 +1,48 @@
-
-h1 {
-    text-align:  center;
-   
-}
-p{
-    font-size: 22pt;
-    }
-.dline{
-    margin-bottom: 3%;
+.card .name{
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: black;
+    border: none;
+    
 }
 
-ul {
+.card p{
+    border-bottom: 2px solid black;
     font-size: 22pt;
 }
-.Foto{
-    /*margin-bottom: 5%;*/
+
+.card ul {
+    font-size: 22pt;
+    border-bottom: 2px solid black;
+    
+}
+.align-center{
+    margin: auto;
+    padding:50px 0px 50px 0px;
+}
+.align-center img{
     border-radius: 100px;
-    height: 750px;
-    margin-left: 283px;
-}
-.c{
+   
+    
+} 
+.card{
     width: 1000px;
-    margin: 25px auto;
     background: #fff;
     border: solid #EEE9E9;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 0 0 5px 2px;
+    
 }
 hr{
     margin-bottom: 1%;
 }
 body{
    /* margin: 3%;*/
-    font-size: 25pt;
+    /*font-size: 25pt;*/
     /*display: block;*/
     border: 1pt;
+    background: #f9f9f9;
 }
