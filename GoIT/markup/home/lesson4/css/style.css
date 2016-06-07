@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("../img/back.jpg") repeat-x;
+     
+}
+.back{
+    border: solid black 1px;
+}
+.main{
+    width: 1006px;
+    height: 979px;
+    background: #ffffff;
+    margin: 0 148px;
+}
+/*HEADER*/
+.logo{
+    width: 306px;
+    height: 171px;
+    display: flex;
+}
+.card{
+    
+}

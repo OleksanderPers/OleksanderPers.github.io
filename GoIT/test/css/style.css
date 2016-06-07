@@ -1,0 +1,18 @@
+.header{
+    background-color: gray;
+    
+}
+.sidebar{
+    background-color: green;
+    float: left;
+    width: 30%;
+}
+.content{
+    background-color: yellow;
+    float: right;
+    width: 70%;
+}
+.footer{
+ background-color: red;   
+ clear: both;
+}

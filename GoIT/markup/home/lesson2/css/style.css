@@ -152,9 +152,11 @@ float: left;
 }
 .copy {
     float: right;
-    margin: 0 36px 0 0;
+    margin: 0px 36px 0 0;
+    
 }
 
 .copy a {
-    margin: 0;  
+    margin: 0px; 
+    padding-top:  
 }
